@@ -24,7 +24,7 @@ package postgresql
 import (
 	"testing"
 
-	"upper.io/db"
+	"github.com/elsonwu/db"
 )
 
 func TestConnectionURL(t *testing.T) {

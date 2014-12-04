@@ -37,9 +37,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/sqlutil"
 	"menteslibres.net/gosexy/to"
-	"upper.io/db"
-	"upper.io/db/util/sqlutil"
 )
 
 const (

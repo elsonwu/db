@@ -26,9 +26,9 @@ import (
 	"fmt"
 	"strings"
 
-	"upper.io/db"
-	"upper.io/db/util/sqlgen"
-	"upper.io/db/util/sqlutil"
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/sqlgen"
+	"github.com/elsonwu/db/util/sqlutil"
 )
 
 type counter struct {

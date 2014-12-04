@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"upper.io/db"      // Imports the main db package.
-	_ "upper.io/db/ql" // Imports the ql adapter.
+	"github.com/elsonwu/db"      // Imports the main db package.
+	_ "github.com/elsonwu/db/ql" // Imports the ql adapter.
 )
 
 var settings = db.Settings{

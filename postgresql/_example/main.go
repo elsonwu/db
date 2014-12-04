@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"upper.io/db"              // Imports the main db package.
-	_ "upper.io/db/postgresql" // Imports the postgresql adapter.
+	"github.com/elsonwu/db"              // Imports the main db package.
+	_ "github.com/elsonwu/db/postgresql" // Imports the postgresql adapter.
 )
 
 var settings = db.Settings{

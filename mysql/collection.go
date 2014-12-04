@@ -29,10 +29,10 @@ import (
 
 	"database/sql"
 
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/sqlgen"
+	"github.com/elsonwu/db/util/sqlutil"
 	"menteslibres.net/gosexy/to"
-	"upper.io/db"
-	"upper.io/db/util/sqlgen"
-	"upper.io/db/util/sqlutil"
 )
 
 const defaultOperator = `=`

@@ -27,9 +27,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/elsonwu/db"
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/bson"
-	"upper.io/db"
 )
 
 // Mongodb Collection

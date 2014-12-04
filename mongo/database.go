@@ -28,8 +28,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/elsonwu/db"
 	"labix.org/v2/mgo"
-	"upper.io/db"
 )
 
 const Adapter = `mongo`

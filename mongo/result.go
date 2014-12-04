@@ -27,9 +27,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/elsonwu/db"
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/bson"
-	"upper.io/db"
 )
 
 type Result struct {

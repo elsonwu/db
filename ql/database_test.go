@@ -39,8 +39,8 @@ import (
 	"testing"
 	"time"
 
-	"upper.io/db"
-	"upper.io/db/util/sqlutil"
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/sqlutil"
 )
 
 const (

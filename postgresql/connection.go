@@ -27,8 +27,8 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/elsonwu/db"
 	"github.com/xiam/gopostgresql"
-	"upper.io/db"
 )
 
 // scanner implements a tokenizer for libpq-style option strings.

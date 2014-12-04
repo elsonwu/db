@@ -30,11 +30,11 @@ import (
 	"time"
 	// Importing QL driver
 	_ "github.com/cznic/ql/driver"
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/schema"
+	"github.com/elsonwu/db/util/sqlgen"
+	"github.com/elsonwu/db/util/sqlutil"
 	"upper.io/cache"
-	"upper.io/db"
-	"upper.io/db/util/schema"
-	"upper.io/db/util/sqlgen"
-	"upper.io/db/util/sqlutil"
 )
 
 // Public adapters name under which this adapter registers its.

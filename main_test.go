@@ -31,16 +31,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/elsonwu/db"
+	_ "github.com/elsonwu/db/mongo"
+	_ "github.com/elsonwu/db/mysql"
+	_ "github.com/elsonwu/db/postgresql"
 	"labix.org/v2/mgo"
 	"labix.org/v2/mgo/bson"
-	"upper.io/db"
-	_ "upper.io/db/mongo"
-	_ "upper.io/db/mysql"
-	_ "upper.io/db/postgresql"
 	// Temporary removing QL. It includes a _solaris.go file that produces
 	// compile time errors on < go1.3.
-	// _ "upper.io/db/ql"
-	_ "upper.io/db/sqlite"
+	// _ "github.com/elsonwu/db/ql"
+	_ "github.com/elsonwu/db/sqlite"
 )
 
 var wrappers = []string{

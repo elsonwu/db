@@ -22,19 +22,19 @@
 // Package db provides a single interface for interacting with different data
 // sources through the use of adapters that wrap well-known database drivers.
 //
-// As of today, `upper.io/db` fully supports MySQL, PostgreSQL and SQLite (CRUD
+// As of today, `github.com/elsonwu/db` fully supports MySQL, PostgreSQL and SQLite (CRUD
 // + Transactions) and provides partial support for MongoDB and QL (CRUD only).
 //
 // Usage:
 //
 // 	import(
 //		// Main package.
-// 		"upper.io/db"
+// 		"github.com/elsonwu/db"
 //		// PostgreSQL adapter.
-// 		"upper.io/db/postgresql"
+// 		"github.com/elsonwu/db/postgresql"
 // 	)
 //
-// `upper.io/db` is not an ORM and thus does not impose any hard restrictions
+// `github.com/elsonwu/db` is not an ORM and thus does not impose any hard restrictions
 // on data structures:
 //
 //	// This code works the same for all supported databases.

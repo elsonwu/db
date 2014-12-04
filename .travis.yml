@@ -15,11 +15,11 @@ install:
   # - go get github.com/cznic/ql/ql # ql command line util.
   # - go install github.com/cznic/ql/ql # ql command line util.
   - go get -t -d
-  # - go get upper.io/db/mongo
-  # - go get upper.io/db/mysql
-  # - go get upper.io/db/postgresql
-  # - go get upper.io/db/sqlite
-  # - go get upper.io/db/ql
+  # - go get github.com/elsonwu/db/mongo
+  # - go get github.com/elsonwu/db/mysql
+  # - go get github.com/elsonwu/db/postgresql
+  # - go get github.com/elsonwu/db/sqlite
+  # - go get github.com/elsonwu/db/ql
 
 services:
   - mongodb

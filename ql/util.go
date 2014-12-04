@@ -25,9 +25,9 @@ import (
 	"database/sql"
 	"reflect"
 
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util"
 	"menteslibres.net/gosexy/to"
-	"upper.io/db"
-	"upper.io/db/util"
 )
 
 func (t *table) fetchRow(rows *sql.Rows, dst interface{}) error {

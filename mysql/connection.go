@@ -26,7 +26,7 @@ import (
 	"net/url"
 	"strings"
 
-	"upper.io/db"
+	"github.com/elsonwu/db"
 )
 
 const defaultPort = 3306

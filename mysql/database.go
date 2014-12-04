@@ -27,12 +27,12 @@ import (
 	"strings"
 	"time"
 	// Importing MySQL driver.
+	"github.com/elsonwu/db"
+	"github.com/elsonwu/db/util/schema"
+	"github.com/elsonwu/db/util/sqlgen"
+	"github.com/elsonwu/db/util/sqlutil"
 	_ "github.com/go-sql-driver/mysql"
 	"upper.io/cache"
-	"upper.io/db"
-	"upper.io/db/util/schema"
-	"upper.io/db/util/sqlgen"
-	"upper.io/db/util/sqlutil"
 )
 
 const (
